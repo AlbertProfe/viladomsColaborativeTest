@@ -1,8 +1,7 @@
 package exampleColaborativeTest1;
 
-
 public class MyData {
-	
+
 	//fields
 	private int day;
 	private int month;
