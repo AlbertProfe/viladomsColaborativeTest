@@ -1,6 +1,6 @@
 package exampleColaborativeTest1;
 
-public class MyData {
+public class MyDate {
 
 	//fields
 	private int day;
@@ -8,7 +8,7 @@ public class MyData {
 	private int year;
 	
 	//constructor
-	public MyData(int day, int month, int year) {
+	public MyDate(int day, int month, int year) {
 		super();
 		this.day = day;
 		this.month = month;
@@ -36,7 +36,7 @@ public class MyData {
 	}
 	
 	//method earlier
-	public boolean earlier(MyData compared) {
+	public boolean earlier(MyDate compared) {
 		// first we'll compare years
 		if (this.year < compared.year) {
 			return true;
