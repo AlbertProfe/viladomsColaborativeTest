@@ -8,6 +8,8 @@ public class Init {
 		System.out.println("this is master ...");
     
 		System.out.println("this is the REAL brach one ....");
+		
+		Clinica tecknon = new Clinica("Tecknon", "Barcelona", 250 );
 	
 
 	}
